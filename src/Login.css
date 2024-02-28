@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.h1 {
+font-size: 35px;
+font-family:sans-serif ;
+color: rgb(36, 36, 247);
+overflow: hidden;
+}
+.username {
+    background-color: rgb(66, 97, 233);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: center;
+    box-sizing: border-box;
+    border-radius: 50px; /* Adjust the value to increase or decrease the curvature */
+    padding: 12px 40px; /* Add padding for better appearance */
+    border: 1px solid
+    
+}
+.username::placeholder {
+    color: black;
+    font-style: italic;
+    /* Add any other styles you want to apply */
+  }
+.password::placeholder {
+    color: black;
+    font-style: italic;
+    /* Add any other styles you want to apply */
+  }
+
+.password {
+    background-color: rgb(66, 97, 233);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    border-radius: 50px; /* Adjust the value to increase or decrease the curvature */
+    padding: 12px 40px; /* Add padding for better appearance */
+    border: 1px solid
+
+}
+
+.lbutton {
+    background-color: rgb(66, 97, 233);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: center;
+    box-sizing: border-box;
+    border-radius: 50px; /* Adjust the value to increase or decrease the curvature */
+    padding: 10px 40px; /* Add padding for better appearance */
+    border: 1px solid
+}
+  
+.container  {
+    background-image: url("C:/Users/kumel/OneDrive/Desktop/smart erp/my-react-app/src/backgroundimg.jpeg"); /* Replace 'path/to/your/image.jpg' with the path to your image file */
+    background-size: cover; /* This property ensures that the background image covers the entire element */
+    background-position: center;
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+    height: 100vh;  
+    overflow: hidden;
+  }
+
+.back  {
+  margin-top: 200px;
+  margin-left:1000px;
+  width: 300px; /* Set the width of the container */
+  height: 400px; /* Set the height of the container */
+  background-color: rgba(155, 173, 241, 0.5); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 50px; /* Add border-radius for rounded corners */
+  align-content: center;
+}
+  
