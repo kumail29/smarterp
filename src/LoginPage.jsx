@@ -50,7 +50,6 @@ const LoginPage = () => {
             </center>
           </div>
         </div>
-      )}
     </div>
   );
 };

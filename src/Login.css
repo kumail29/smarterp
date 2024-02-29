@@ -70,6 +70,7 @@ overflow: hidden;
     overflow: hidden;
   }
 
+
 .back  {
   margin-top: 200px;
   margin-left:1000px;
@@ -81,4 +82,8 @@ overflow: hidden;
   border-radius: 50px; /* Add border-radius for rounded corners */
   align-content: center;
 }
+
+
+
+
   
