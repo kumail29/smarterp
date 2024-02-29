@@ -4,8 +4,8 @@ const Admin = () =>  {
     return(
         <>
          <div>
-            Admin
-         UNDER construction
+            <h1>Admin Page</h1>
+                <h1 className="h1">UNDER construction</h1>
             <Link to="/">Back to Login</Link>
 
          </div>
