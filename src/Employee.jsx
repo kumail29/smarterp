@@ -4,8 +4,12 @@ const Admin = () =>  {
     return(
         <>
          <div>
-            Employee
-         UNDER construction
+            <center><
+            <h1>employee</h1>
+
+UNDER construction
+</center>
+
             <Link to="/">Back to Login</Link>
 
          </div>
