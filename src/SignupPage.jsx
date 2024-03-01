@@ -20,6 +20,7 @@ const SignupPage = () => {
     <div className='container'>
       <div className='backsignup'>
       <p className='h1'>Sign Up</p>
+      <div class="input-group">
       <input
         className='username'
         type="text"
@@ -27,6 +28,7 @@ const SignupPage = () => {
         value={firstname}
         onChange={(e) => setfirstname(e.target.value)}
       />
+      <i class="fas fa-user"/>
       <br />
       <input
         className='username'
@@ -35,6 +37,7 @@ const SignupPage = () => {
         value={lasttname}
         onChange={(e) => setlastname(e.target.value)}
       />
+      <i class="fas fa-user"/>
       <br />
       <input
         className='username'
@@ -43,6 +46,7 @@ const SignupPage = () => {
         value={phone}
         onChange={(e) => setphone(e.target.value)}
       />
+      <i class="fas fa-phone"/>
       <br />
 
       <input
@@ -52,6 +56,7 @@ const SignupPage = () => {
         value={email}
         onChange={(e) => setemail(e.target.value)}
       />
+      <i class="fas fa-envelope"/>
       <br />
       
       <input
@@ -61,6 +66,7 @@ const SignupPage = () => {
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
+      <i class="fas fa-user"/>
       <br />
       <input
         className='password'
@@ -69,6 +75,8 @@ const SignupPage = () => {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
         />
+        <i class="fas fa-lock"/>
+        </div>
       <br />
       <button className="lbutton" onClick={handleSignup}>Sign Up</button>
       <br />

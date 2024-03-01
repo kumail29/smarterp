@@ -12,3 +12,9 @@
     align-items: center; /* Vertically center */
     flex-direction: column; /* Stack children vertically */
   }
+  .input-group i {
+    position: absolute;
+    left:65px;
+    margin-top:-29px;
+    color: #090000;
+  }

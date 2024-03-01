@@ -62,7 +62,7 @@ overflow: hidden;
 }
   
 .container  {
-    background-image: url("C:/Users/kumel/OneDrive/Desktop/smart erp/my-react-app/src/backgroundimg.jpeg"); /* Replace 'path/to/your/image.jpg' with the path to your image file */
+    background-image: url("C:/Users/Kartik/Desktop/Project/smarterp-master/src/backgroundimg.jpeg"); /* Replace 'path/to/your/image.jpg' with the path to your image file */
     background-size: cover; /* This property ensures that the background image covers the entire element */
     background-position: center;
     background-repeat: no-repeat; /* This property prevents the background image from repeating */
@@ -81,6 +81,12 @@ overflow: hidden;
   padding: 20px; /* Add padding for spacing */
   border-radius: 50px; /* Add border-radius for rounded corners */
   align-content: center;
+}
+.input-group i {
+  position: absolute;
+  left:65px;
+  margin-top:-29px;
+  color: #090000;
 }
 
 

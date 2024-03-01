@@ -27,22 +27,30 @@ const LoginPage = () => {
           <div className='back'>
             <center>
               <p className='h1'>Login</p>
-              <input
-                className='username'
-                type="text"
-                placeholder="Username"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-              />
-              <br />
-              <input
-                className='password'
-                type="password"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-              <br />
+              
+                  <div class="input-group">
+                  <input
+                    className='username'
+                    type="text"
+                    placeholder="Username"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                  />
+                  <i class="fas fa-user"></i>
+                  </div>
+                 <br></br>
+              <div class="input-group">
+
+                    <input
+                      className='password'
+                      type="password"
+                      placeholder="Password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                    />
+                    <i class="fas fa-lock"/>
+              </div>
+             <br></br>
               <button className="lbutton" onClick={handleLogin}>Login</button>
               <br />
               <br />
