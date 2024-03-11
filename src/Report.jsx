@@ -4,9 +4,9 @@ const Report = () =>  {
     return(
         <>
          <div>
-            Report
-         UNDER construction
-            <Link to="/">Back to Login</Link>
+            <h1>Report</h1>
+         <h2>UNDER construction</h2>
+            <Link to="/homepage">Back to Homepage</Link>
 
          </div>
         </>

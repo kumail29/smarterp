@@ -1,16 +1,21 @@
 import React from "react";
-import {Link} from 'react-router-dom/cjs/react-router-dom.min';
+import {Link,useHistory} from 'react-router-dom/cjs/react-router-dom.min';
 const Admin = () =>  {
+    const history = useHistory();
+
+    const handleLogin = () => {
+        history.push('/HomePage'); // Redirect to HomePage
+    };
     return(
         <>
          <div>
-            <center><
+            <center>
             <h1>employee</h1>
+            <h1>UNDER construction</h1>
+            <button className="lbutton"  onClick={handleLogin}>Homepage</button>
+            </center>
 
-UNDER construction
-</center>
-
-            <Link to="/">Back to Login</Link>
+            <Link to="/homepage">Back to homepage</Link>
 
          </div>
         </>

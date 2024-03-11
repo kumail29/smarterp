@@ -62,7 +62,7 @@ overflow: hidden;
 }
   
 .container  {
-    background-image: url("C:/Users/Kartik/Desktop/Project/smarterp-master/src/backgroundimg.jpeg"); /* Replace 'path/to/your/image.jpg' with the path to your image file */
+    background-image: url(C:\Users\kumel\OneDrive\Desktop\project\smarterp\src\backgroundimg.jpeg);
     background-size: cover; /* This property ensures that the background image covers the entire element */
     background-position: center;
     background-repeat: no-repeat; /* This property prevents the background image from repeating */

@@ -15,7 +15,7 @@ const HomePage = () => {
     <>
         <div className='container'>
         <div className='logout'><button className="lbutton" onClick={handleLogout}>Logout</button></div>
-            <div>
+            
             
               <div className='backhome'>
               
@@ -42,7 +42,7 @@ const HomePage = () => {
            
     </div>
     </div>
-    </div>
+    
     
     </>
   ); 
