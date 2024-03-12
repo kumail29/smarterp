@@ -18,7 +18,7 @@ const HomePage = () => {
             <div>
             
               <div className='backhome'>
-              
+              <div class="input-name">
               <div class="module">
                 <span class="icon material-icons">supervisor_account</span>
                 <Link to="/admin"><span class="module-name">Admin</span></Link>  
@@ -39,7 +39,7 @@ const HomePage = () => {
                 <span class="icon material-icons">description</span>
                 <Link to="/invoice"><span class="module-name">Invoice</span></Link> 
             </div>
-           
+            </div>
     </div>
     </div>
     </div>
